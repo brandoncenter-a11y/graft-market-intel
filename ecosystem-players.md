@@ -74,6 +74,14 @@ found beyond the already-logged Sept 2025 Strive raise — Crunchbase/Fierce res
   as the highest-priority company to monitor.
   [Yahoo Finance (Q2 beat)](https://finance.yahoo.com/markets/stocks/articles/caredx-cdna-beats-q2-earnings-212502324.html) ·
   [BioSpace (LCD)](https://www.biospace.com/press-releases/caredx-announces-finalization-of-solid-organ-transplant-molecular-testing-local-coverage-determination)
+- **[M&A] CareDx divested its Lab Products business to EuroBio Scientific for $170M** (announced
+  15 Apr 2026; the HLA-typing/monitoring IVD-kits business is now under GenDx as of ~1 Jul 2026).
+  Part of the same Q2 story above — CareDx is shedding IVD kit manufacturing to sharpen focus on
+  US Precision Medicine Testing Services + Patient & Digital Solutions (TxAccess/AlloCare), the
+  segment that competes directly with Graft; the $113M gain on sale helped CareDx swing to GAAP
+  profitability this quarter.
+  [BusinessWire](https://www.businesswire.com/news/home/20260415770733/en/CareDx-Announces-Agreement-to-Divest-Lab-Products-Business-to-EuroBio-Scientific-for-$170-Million-and-Announces-First-Quarter-Preliminary-Financial-Results) ·
+  [GenDx](https://www.gendx.com/2026/07/a-new-chapter-for-transplant-diagnostics-caredx-lab-products-join-gendx/)
 
 ### 2026-08-06 — Baseline roster established
 Initial full sweep across five segments (backend competitors, advocacy/donor layer, adjacent
@@ -105,7 +113,7 @@ baseline that deserve ongoing attention:
 
 | Player | Parent / owner | What it is | Standing | Scale / notes |
 |---|---|---|---|---|
-| **CareDx Digital Transplant Suite** — OTTR, TransChart, XynQAPI, EpicAura, **TxAccess**, **AlloCare** | CareDx (NASDAQ: CDNA) | Dominant transplant-centre backend roll-up (patient tracking, EMR, QAPI/regulatory reporting) **plus referral software (TxAccess) and a patient waitlist app (AlloCare)** | 🔴 **HIGH** | ~70% of US centres run ≥1 CareDx product; FY2026 guidance raised to **$490–500M** after Q2 2026 beat (rev $132M, +52% YoY); AlloSure/AlloMap Medicare LCD finalized Jul 2026, effective 30 Aug 2026. QAPI reporting lock-in + Epic integration moat. The most direct competitor to *both* Graft products. |
+| **CareDx Digital Transplant Suite** — OTTR, TransChart, XynQAPI, EpicAura, **TxAccess**, **AlloCare** | CareDx (NASDAQ: CDNA) | Dominant transplant-centre backend roll-up (patient tracking, EMR, QAPI/regulatory reporting) **plus referral software (TxAccess) and a patient waitlist app (AlloCare)** | 🔴 **HIGH** | ~70% of US centres run ≥1 CareDx product; FY2026 guidance raised to **$490–500M** after Q2 2026 beat (rev $132M, +52% YoY); AlloSure/AlloMap Medicare LCD finalized Jul 2026, effective 30 Aug 2026. Divested Lab Products/HLA-typing IVD business to EuroBio Scientific/GenDx ($170M, Apr 2026) to sharpen focus on Testing Services + Patient/Digital Solutions. QAPI reporting lock-in + Epic integration moat. The most direct competitor to *both* Graft products. |
 | **Breeze by MedSleuth** — Recipient, Wait List, MATCHGRID | DaVita (NYSE: DVA) | Remote candidate evaluation + waitlist automation + living-donor paired-exchange optimization | 🔴 **HIGH** | The named incumbent Graft's backend targets. In 100% of DaVita centres; sold externally too. DaVita's dialysis funnel feeds referrals. Pricing undisclosed (model assumes ~$100k/organ module). |
 | **Epic "Phoenix" transplant module** | Epic Systems (private) | Native transplant lifecycle module inside Epic (eval, waitlist, UNOS reconciliation, matching, follow-up) | 🔴 **HIGH** where Epic is the EHR | "Free" (already licensed), IT-preferred, hard to displace. Graft's path here = integrate via **Epic Showroom / Toolbox** (Graft is already in Showroom), not replace. |
 | **Afflo** | **Buckeye Transplant Solutions** (merged Jul 2025) | End-to-end platform: referral intake, assessment, waitlist prioritization, AI matching, allocation, logistics, virtual crossmatch | 🟠 MEDIUM | Feature overlap on referral/assessment/waitlist; thin historical funding (~$250K) but now has Buckeye's centre relationships. |
@@ -263,6 +271,7 @@ InformAI/TransplantAI), **HRSA** living-donor & modernization funding, **AKF / N
 | H1 2025 | **[M&A]** OmniLife/FlowHawk → XVIVO Perfusion | $6M + $1M earnout (announced Sept 2024) |
 | Jan 2025 | **[FUNDING]** Evergreen Nephrology | $130M (Rubicon Founders + Oak HC/FT + K2) |
 | Apr 2026 | **[M&A]** CareDx → Naveris | $160M + $100M earnout (oncology MRD; shows CareDx's M&A engine) |
+| Apr 2026 | **[M&A]** CareDx → EuroBio Scientific (Lab Products divestiture) | $170M cash; HLA-typing/monitoring IVD kits business; now under GenDx (~Jul 2026 close) |
 | 2026 | **[FUNDING]** Carna Health | $8M kidney-screening; Siemens Healthineers partnership (lead unnamed, *unverified*) |
 | Oct 2025 | **[FUNDING]** Town Hall Ventures | New ~$440M fund |
 | — | *No verified new Somatus or Monogram primary round since 2022–early 2023* | Do not cite one without a fresh press release |
