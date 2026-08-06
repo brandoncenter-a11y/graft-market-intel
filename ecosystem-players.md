@@ -27,6 +27,62 @@ Started: 2026-08-06. See [[graft-business-model]], [[graft-outstanding-work]], a
 Each weekly refresh adds a dated block here. Entries: **[NEW]** first appearance, **[FUNDING]**
 raise/round, **[M&A]** acquisition/merger, **[CHANGE]** material shift (product, scope, status).
 
+### 2026-08-06 — First weekly refresh (same-day as baseline)
+No new entrants or funding rounds found — expected, since baseline was compiled hours earlier
+today. This pass corrected two facts the baseline sweep had wrong/incomplete and surfaced one
+policy vehicle that was missing entirely. Checked: all 15 watchlist queries (backend competitors,
+advocacy/donor layer, adjacent kidney care & diagnostics, OPTN/CMS infrastructure, capital/M&A);
+CareDx/DaVita earnings & press; Somatus/Monogram/Strive funding trackers (no new 2026 rounds
+found beyond the already-logged Sept 2025 Strive raise — Crunchbase/Fierce results referencing
+"$140M CapitalG" and "$160M TPG" for Strive/Monogram are 2021 rounds, not 2026; not logged).
+
+- **[M&A] InVita Healthcare Technologies (owner of Transplant Connect/iTransplant/iReferral)
+  acquired MAK-SYSTEM**, a global blood-management software leader, from The Carlyle Group —
+  deal closed 30 Jun 2026. Pushes InVita beyond organ/tissue into blood-bank workflows; combined
+  entity now spans 30+ countries, ~95% of US blood centres, ~75% of US deceased-organ donation.
+  [Novacap release](https://novacapcorp.com/news/invita-healthcare-technologies-a-novacap-portfolio-company-acquires-mak-system/) ·
+  [Willkie](https://www.willkie.com/news/2026/07/willkie-advises-novacap-and-invita-healthcare-technologies-on-acquisition-of-mak-system)
+- **[CHANGE] InVita's owner is Novacap, not Riverside** — Novacap took the platform stake in
+  Nov 2024; the baseline's "possible 2026 recap (unverified)" note is now resolved/corrected.
+  [PitchBook](https://pitchbook.com/profiles/company/267919-66)
+- **[CHANGE] OPTN Policy & Committee Support task order awarded** (was "pending" in baseline) —
+  HRSA gave it to **Customer Value Partners, LLC** on 27 Jul 2026 (~$6.7M, 1-yr term); this was
+  the last piece of legacy UNOS scope still uncompeted.
+  [OrangeSlices AI (award data)](https://orangeslices.ai/cvp-beats-out-2-to-win-hrsa-organ-procurement-and-transplantation-network-optn-policy-committee-support-task/)
+- **[CHANGE] CMS "IOTA" Model — missing from baseline, added.** Mandatory 6-yr kidney-transplant
+  payment model (Increasing Organ Transplant Access; Jul 2025–Jun 2031) ties Medicare
+  upside/downside risk payments at ~103 hospitals (half of US DSAs) to transplant-access and
+  outcome metrics. PY2 final rule (1 Jun 2026) raised the low-volume threshold 11→15
+  transplants/yr and folded in Medicare Advantage beneficiaries. Directly relevant: this is a
+  new financial incentive for transplant programmes (Graft's buyer) to increase throughput —
+  a tailwind for backend workup/coordination tooling.
+  [CMS fact sheet](https://www.cms.gov/files/document/iota-model-fs.pdf) ·
+  [Federal Register](https://www.federalregister.gov/documents/2026/06/01/2026-10890/medicare-program-alternative-payment-model-updates-and-the-increasing-organ-transplant-access-iota)
+- **[CHANGE] CMS ETC Model status update:** baseline said "proposed" termination; now
+  **finalized**, effective 31 Dec 2025.
+  [Federal Register](https://www.federalregister.gov/documents/2025/11/24/2025-20681/medicare-program-end-stage-renal-disease-prospective-payment-system-payment-for-renal-dialysis)
+- **[CHANGE] CMS OPO tiering rule (CMS-3409-P) proposed 28 Jan 2026** — would shift
+  re-certification from OPO-level to **DSA-level** tiering (an OPO stays certified if ≥1 of its
+  DSAs hits tier 1/2); comment period closed 31 Mar 2026; final rule expected late 2026.
+  [Hall Render](https://hallrender.com/2026/01/30/proposed-opo-rule-signals-broad-operational-and-compliance-changes-across-the-donation-and-transplantation-system/) ·
+  [CMS fact sheet](https://www.cms.gov/newsroom/fact-sheets/organ-procurement-organizations-opos-conditions-coverage-revisions-cms-3409-p-proposed-rule)
+- **[CHANGE] CareDx Q2 2026 beat + Medicare coverage locked in.** Revenue $132M (+52% YoY);
+  FY2026 guidance raised to **$490–500M** (vs. ~$380M FY2025 baseline figure) on Craig-Hallum
+  upgrade to Buy. Separately, the AlloSure/AlloMap solid-organ molecular-testing LCD was
+  **finalized 16 Jul 2026** (effective 30 Aug 2026): AlloSure Kidney covered for up to 6
+  surveillance tests yr 1, 4/yr yrs 2–3; heart/lung coverage also maintained. Reinforces CareDx
+  as the highest-priority company to monitor.
+  [Yahoo Finance (Q2 beat)](https://finance.yahoo.com/markets/stocks/articles/caredx-cdna-beats-q2-earnings-212502324.html) ·
+  [BioSpace (LCD)](https://www.biospace.com/press-releases/caredx-announces-finalization-of-solid-organ-transplant-molecular-testing-local-coverage-determination)
+- **[M&A] CareDx divested its Lab Products business to EuroBio Scientific for $170M** (announced
+  15 Apr 2026; the HLA-typing/monitoring IVD-kits business is now under GenDx as of ~1 Jul 2026).
+  Part of the same Q2 story above — CareDx is shedding IVD kit manufacturing to sharpen focus on
+  US Precision Medicine Testing Services + Patient & Digital Solutions (TxAccess/AlloCare), the
+  segment that competes directly with Graft; the $113M gain on sale helped CareDx swing to GAAP
+  profitability this quarter.
+  [BusinessWire](https://www.businesswire.com/news/home/20260415770733/en/CareDx-Announces-Agreement-to-Divest-Lab-Products-Business-to-EuroBio-Scientific-for-$170-Million-and-Announces-First-Quarter-Preliminary-Financial-Results) ·
+  [GenDx](https://www.gendx.com/2026/07/a-new-chapter-for-transplant-diagnostics-caredx-lab-products-join-gendx/)
+
 ### 2026-08-06 — Baseline roster established
 Initial full sweep across five segments (backend competitors, advocacy/donor layer, adjacent
 kidney care & diagnostics, infrastructure/institutions, investors/capital). Everything below is
@@ -57,12 +113,12 @@ baseline that deserve ongoing attention:
 
 | Player | Parent / owner | What it is | Standing | Scale / notes |
 |---|---|---|---|---|
-| **CareDx Digital Transplant Suite** — OTTR, TransChart, XynQAPI, EpicAura, **TxAccess**, **AlloCare** | CareDx (NASDAQ: CDNA) | Dominant transplant-centre backend roll-up (patient tracking, EMR, QAPI/regulatory reporting) **plus referral software (TxAccess) and a patient waitlist app (AlloCare)** | 🔴 **HIGH** | ~70% of US centres run ≥1 CareDx product; FY2025 rev ~$380M. QAPI reporting lock-in + Epic integration moat. The most direct competitor to *both* Graft products. |
+| **CareDx Digital Transplant Suite** — OTTR, TransChart, XynQAPI, EpicAura, **TxAccess**, **AlloCare** | CareDx (NASDAQ: CDNA) | Dominant transplant-centre backend roll-up (patient tracking, EMR, QAPI/regulatory reporting) **plus referral software (TxAccess) and a patient waitlist app (AlloCare)** | 🔴 **HIGH** | ~70% of US centres run ≥1 CareDx product; FY2026 guidance raised to **$490–500M** after Q2 2026 beat (rev $132M, +52% YoY); AlloSure/AlloMap Medicare LCD finalized Jul 2026, effective 30 Aug 2026. Divested Lab Products/HLA-typing IVD business to EuroBio Scientific/GenDx ($170M, Apr 2026) to sharpen focus on Testing Services + Patient/Digital Solutions. QAPI reporting lock-in + Epic integration moat. The most direct competitor to *both* Graft products. |
 | **Breeze by MedSleuth** — Recipient, Wait List, MATCHGRID | DaVita (NYSE: DVA) | Remote candidate evaluation + waitlist automation + living-donor paired-exchange optimization | 🔴 **HIGH** | The named incumbent Graft's backend targets. In 100% of DaVita centres; sold externally too. DaVita's dialysis funnel feeds referrals. Pricing undisclosed (model assumes ~$100k/organ module). |
 | **Epic "Phoenix" transplant module** | Epic Systems (private) | Native transplant lifecycle module inside Epic (eval, waitlist, UNOS reconciliation, matching, follow-up) | 🔴 **HIGH** where Epic is the EHR | "Free" (already licensed), IT-preferred, hard to displace. Graft's path here = integrate via **Epic Showroom / Toolbox** (Graft is already in Showroom), not replace. |
 | **Afflo** | **Buckeye Transplant Solutions** (merged Jul 2025) | End-to-end platform: referral intake, assessment, waitlist prioritization, AI matching, allocation, logistics, virtual crossmatch | 🟠 MEDIUM | Feature overlap on referral/assessment/waitlist; thin historical funding (~$250K) but now has Buckeye's centre relationships. |
 | **OmniLife / FlowHawk** | **XVIVO Perfusion** (STO: XVIVO) | Clinical-workflow automation + secure comms across intake, referral, waitlist | 🟠 MEDIUM | ~10 paying hospitals, ~$1M rev at acquisition; now behind XVIVO's US organ-preservation channel. More comms/logistics than recipient workup. |
-| **InVita — Transplant Connect (iTransplant / iReferral)** | The Riverside Company (PE); *possible 2026 recap (unverified)* | Donation-transplant case management + automated donor referral (hospital→OPO) | 🟠 MEDIUM-LOW | Primarily **OPO / deceased-donation** side (~75% of US deceased-donation transplants). Well-capitalized; could expand centre-side. Also owns TIEDI/Transnet rails. |
+| **InVita — Transplant Connect (iTransplant / iReferral)** | Novacap (PE, since Nov 2024) | Donation-transplant case management + automated donor referral (hospital→OPO); **acquired MAK-SYSTEM (blood mgmt) Jun 2026** — now spans blood/organ/tissue | 🟠 MEDIUM-LOW | Primarily **OPO / deceased-donation** side (~75% of US deceased-donation transplants). Well-capitalized, actively acquisitive; could expand centre-side. Also owns TIEDI/Transnet rails. |
 | **Oracle Health (Cerner)** | Oracle (NYSE: ORCL) | No first-party transplant module; EHR data + OCI matching pilots + referral integrations | 🟡 LOW-MED | Relevant only where Cerner is the EHR; an integration surface, not a packaged product. |
 | **Transplants.org** | Nonprofit (launched May 2026) | Transplant/donor software; 25+ centres; **plans to extend into living-donor education/guidance** | 🟠 WATCH | The planned living-donor guidance is the one to watch as a possible front-end encroacher. |
 | **Lifefuser** | Ataims Tech (private) | AI-native transplant-management platform (matching, workflow, compliance) — very thin verified traction | 🟡 WATCH | Early, same-lane AI entrant; *(unverified traction)*. |
@@ -146,7 +202,7 @@ and indirect competitors if they build coordination tooling in-house.*
 | **HRSA** | HHS agency owning the OPTN contract; driving modernization | Issues the RFPs/task orders that create every new vendor — watch SAM.gov + monthly updates. |
 | **SRTR** (Scientific Registry of Transplant Recipients) | Publishes programme-level outcome "report cards" | Defines the numbers programmes are judged on. Long-term contract **re-competing** (interim HHRI bridge ~Mar 2026) *(unverified outcome)*. |
 | **TIEDI** | Mandatory OPTN data-submission interface | The reporting rail Graft must populate/integrate — reducing its data-entry burden is a direct hours-saved value prop. |
-| **CMS** | Pays for most dialysis/transplant; sets Conditions of Participation, grades OPOs | Defines reimbursement + compliance metrics. Proposed **terminating the ETC Model** (2025). |
+| **CMS** | Pays for most dialysis/transplant; sets Conditions of Participation, grades OPOs | Defines reimbursement + compliance metrics. **ETC Model terminated** effective 31 Dec 2025 (finalized, was proposed). **IOTA Model** (mandatory kidney-transplant payment model, ~103 hospitals, Jul 2025–Jun 2031) ties Medicare risk payments to transplant access/outcomes — PY2 final rule 1 Jun 2026. **OPO tiering rule** (CMS-3409-P, proposed 28 Jan 2026) would move re-certification to DSA-level; final rule expected late 2026. |
 
 ### OPTN modernization vendors — the new infrastructure entrants (Sept 2024→)
 Driven by the *Securing the U.S. OPTN Act* (2023), which broke the single-contractor monopoly.
@@ -155,7 +211,8 @@ next-gen procurement), **Maximus Federal** (transparency), **Deloitte** (patient
 **Guidehouse Digital** (financial mgmt). The ~$440M Operations-Transition IDIQ added 14 primes
 incl. **Accenture Federal, Leidos, Sapient** (the IT-build domain, ~$235M), **ABT Global, RAND,
 KPMG, Customer Value Partners, Highlight Technologies**. **May 2026:** Patient-Safety task order →
-GDIT + Arbor. **Summer 2026:** Policy & Committee Support vendor *(award pending, unverified)*.
+GDIT + Arbor. **27 Jul 2026:** Policy & Committee Support task order → **Customer Value Partners**
+(~$6.7M, 1-yr) — the last piece of legacy UNOS scope now competed out.
 → The next-gen match/DonorNet replacement is anchored by **GDIT + Accenture/Leidos/Sapient** —
 the platforms Graft's backend will need to interoperate with.
 
@@ -207,12 +264,14 @@ InformAI/TransplantAI), **HRSA** living-donor & modernization funding, **AKF / N
 
 | Date | Event | Detail |
 |---|---|---|
+| Jun 2026 | **[M&A]** InVita (Novacap) → MAK-SYSTEM | Acquired blood-management software leader from Carlyle, closed 30 Jun 2026 |
 | Sept 2025 | **[FUNDING]** Strive Health | $300M equity (NEA) + $250M debt (Hercules), ~$1.8B val |
 | Sept 2025 | **[M&A]** Fresenius ↔ InterWell | Fresenius consolidated InterWell (~€312M) |
 | Jul 2025 | **[M&A]** Afflo → Buckeye Transplant Solutions | Merger completed 31 Jul 2025 |
 | H1 2025 | **[M&A]** OmniLife/FlowHawk → XVIVO Perfusion | $6M + $1M earnout (announced Sept 2024) |
 | Jan 2025 | **[FUNDING]** Evergreen Nephrology | $130M (Rubicon Founders + Oak HC/FT + K2) |
 | Apr 2026 | **[M&A]** CareDx → Naveris | $160M + $100M earnout (oncology MRD; shows CareDx's M&A engine) |
+| Apr 2026 | **[M&A]** CareDx → EuroBio Scientific (Lab Products divestiture) | $170M cash; HLA-typing/monitoring IVD kits business; now under GenDx (~Jul 2026 close) |
 | 2026 | **[FUNDING]** Carna Health | $8M kidney-screening; Siemens Healthineers partnership (lead unnamed, *unverified*) |
 | Oct 2025 | **[FUNDING]** Town Hall Ventures | New ~$440M fund |
 | — | *No verified new Somatus or Monogram primary round since 2022–early 2023* | Do not cite one without a fresh press release |
@@ -250,7 +309,9 @@ Run these each week; log deltas in the Change Log. (These are the queries the sc
 
 ### Known gaps to verify over time
 - Breeze external (non-DaVita) centre count; Afflo/Lifefuser live-centre counts.
-- Somatus/Monogram current valuations (both last raised 2022–2023).
-- SRTR long-term contractor (competition open); OPTN Policy & Committee Support award (pending).
-- InVita/Transplant Connect 2026 PE recap (PitchBook flag, unconfirmed).
+- Somatus/Monogram current valuations (both last raised 2022–2023; no new 2026 round found this
+  week despite stale 2021 rounds surfacing in search — do not cite without a fresh release).
+- SRTR long-term contractor: still uncompeted. HHRI bridge contract runs to 18 Sep 2026 with
+  options to ~18 Mar 2027 while HRSA runs the full competition.
+- CMS OPO tiering final rule (CMS-3409-P) — expected late 2026, watch for publication.
 - TRIO current activity status.
