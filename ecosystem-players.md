@@ -27,6 +27,36 @@ Started: 2026-08-06. See [[graft-business-model]], [[graft-outstanding-work]], a
 Each weekly refresh adds a dated block here. Entries: **[NEW]** first appearance, **[FUNDING]**
 raise/round, **[M&A]** acquisition/merger, **[CHANGE]** material shift (product, scope, status).
 
+### 2026-08-10 — Weekly refresh
+No new entrants, funding rounds, or M&A found this week. Checked all 15 watchlist queries
+(backend competitors, advocacy/donor layer, adjacent kidney care & diagnostics, OPTN/CMS
+infrastructure, capital/M&A) plus direct checks on CareDx IR, Breeze/MedSleuth, and Strive/
+Somatus/Monogram/Evergreen/Panoramic individually — no new rounds or deals for any of them.
+Three infrastructure/policy developments landed inside the window and are logged below.
+
+- **[CHANGE] HHS/CMS began decertifying Network for Hope**, the Kentucky-based OPO (serves KY +
+  parts of IN/OH/WV) — only the second OPO decertification ever (after Life Alliance Organ
+  Recovery Agency, Miami, Sept 2025). HRSA reviewed 351 authorized-but-not-completed donation
+  cases (2021–2024) and found at least 28 patients may not have been deceased when organ
+  procurement began. Network for Hope is appealing (15-business-day reconsideration window);
+  its service area stays closed to competing OPOs pending the outcome. First real-world
+  decertification action since the CMS-3409-P tiering rule was proposed (see §G/§H).
+  [HHS press release](https://www.hhs.gov/press-room/hhs-decertifies-kentucky-organ-procurement-organization.html) ·
+  [Fierce Healthcare](https://www.fiercehealthcare.com/regulatory/hhs-announces-decertification-kentucky-based-organ-procurement-organization-network-hope) ·
+  [Hall Render](https://hallrender.com/2026/08/07/hhs-begins-decertification-of-network-for-hope-kentuckys-organ-procurement-organization/) ·
+  [STAT News](https://www.statnews.com/2026/08/06/us-to-shut-kentucky-organ-donation-group-safety-concerns/)
+- **[CHANGE] OPTN emergency policy shortens donor serology testing windows** — HIV window cut
+  28→7 days, seasonal West Nile Virus window cut 14→7 days; effective 17 Aug 2026. Changes what
+  transplant-programme/OPO backend software must track and enforce — directly relevant to
+  Graft's backend segment (§A).
+  [NKR press release](https://www.prnewswire.com/news-releases/national-kidney-registry-ready-to-support-new-optn-seven-day-testing-requirements-302833572.html)
+- **[CHANGE] National Kidney Registry rolled out a "Streamlined Serology Service"** ahead of the
+  OPTN mandate above — covers all 17 serology + final-crossmatch tests for kidney and liver
+  donations on a 7-day timeline; NKR/National Liver Registry service went live 10 Aug 2026, a
+  week before the OPTN deadline. Product update to NKR's §C entry.
+  [NKR press release](https://www.prnewswire.com/news-releases/national-kidney-registry-ready-to-support-new-optn-seven-day-testing-requirements-302833572.html) ·
+  [PR Newswire (webinar)](https://www.prnewswire.com/news-releases/national-kidney-registry--national-liver-registry-hosts-webinar-for-transplant-centers-to-prepare-for-new-optn-serology-testing-policy-302839179.html)
+
 ### 2026-08-06 — First weekly refresh (same-day as baseline)
 No new entrants or funding rounds found — expected, since baseline was compiled hours earlier
 today. This pass corrected two facts the baseline sweep had wrong/incomplete and surfaced one
@@ -145,7 +175,7 @@ baseline that deserve ongoing attention:
 
 | Player | What it is | Standing | Notes |
 |---|---|---|---|
-| **National Kidney Registry (NKR)** + **DASH** + **Donor Shield** | World's largest paired-exchange program; DASH = online donor workflow; Donor Shield = donor protections (up to $30K reimbursement, insurance, prioritization) | 🟠 Competitor / partner | 10,000th transplant reached; ~30% of US living-donor kidney transplants projected 2025; ~$3.3M rev *(unverified)*. Does both halves of Graft's funnel at scale — the key competitor named in the business model. |
+| **National Kidney Registry (NKR)** + **DASH** + **Donor Shield** | World's largest paired-exchange program; DASH = online donor workflow; Donor Shield = donor protections (up to $30K reimbursement, insurance, prioritization) | 🟠 Competitor / partner | 10,000th transplant reached; ~30% of US living-donor kidney transplants projected 2025; ~$3.3M rev *(unverified)*. Does both halves of Graft's funnel at scale — the key competitor named in the business model. **Aug 2026:** launched a "Streamlined Serology Service" (17 tests, 7-day turnaround, kidney + liver via National Liver Registry) ahead of the new OPTN testing-window mandate. |
 | **Alliance for Paired Kidney Donation (APKD)** + DonorProtect | National paired-exchange program + donor protections + advocacy (Wish Upon a Donor, see §B) | 🟠 Competitor / partner | Manages donor inquiries, refers to partner centres. |
 | **UNOS / OPTN Kidney Paired Donation** | Federal national KPD program, open to all OPTN living-donor programs | 🟢 Infrastructure | Downstream matching utility. |
 | **Renewal** | Jewish-community kidney-donation nonprofit; large donor database + community mobilization | 🟢 Model reference | ~1,400 transplants 2006–2025; ~18% of US altruistic donations. Proof point for "activate your network." |
@@ -197,7 +227,7 @@ and indirect competitors if they build coordination tooling in-house.*
 
 | Entity | Role | Why Graft tracks it |
 |---|---|---|
-| **OPTN** (Organ Procurement & Transplantation Network) | Federally chartered body setting allocation policy & membership rules | The single most important standards body; policy changes reshape what programme software must capture/report. |
+| **OPTN** (Organ Procurement & Transplantation Network) | Federally chartered body setting allocation policy & membership rules | The single most important standards body; policy changes reshape what programme software must capture/report. **Aug 2026:** emergency policy shortens donor serology testing windows (HIV 28→7 days, seasonal WNV 14→7 days), effective 17 Aug 2026 — new tracking/enforcement burden for backend software. |
 | **UNOS** (United Network for Organ Sharing) | 40-yr sole OPTN contractor, now narrowed to competed scopes | Its contraction is the central market-opening event; still runs the national match (retained Dec 2025). |
 | **HRSA** | HHS agency owning the OPTN contract; driving modernization | Issues the RFPs/task orders that create every new vendor — watch SAM.gov + monthly updates. |
 | **SRTR** (Scientific Registry of Transplant Recipients) | Publishes programme-level outcome "report cards" | Defines the numbers programmes are judged on. Long-term contract **re-competing** (interim HHRI bridge ~Mar 2026) *(unverified outcome)*. |
@@ -220,7 +250,7 @@ the platforms Graft's backend will need to interoperate with.
 
 | Entity | Role | Notes |
 |---|---|---|
-| **~55 OPOs** — e.g., **Gift of Life** (Philadelphia, highest-volume), **OneLegacy** (LA, largest by population), **LiveOnNY**, **Midwest Transplant Network**, **Mid-America Transplant** | Federally designated regional organ-recovery monopolies, under CMS performance tiering | 2024 record year; CMS tiering is driving Tier-3 consolidation (24→10 lowest-tier). |
+| **~55 OPOs** — e.g., **Gift of Life** (Philadelphia, highest-volume), **OneLegacy** (LA, largest by population), **LiveOnNY**, **Midwest Transplant Network**, **Mid-America Transplant**, **Network for Hope** (KY/IN/OH/WV) | Federally designated regional organ-recovery monopolies, under CMS performance tiering | 2024 record year; CMS tiering is driving Tier-3 consolidation (24→10 lowest-tier). **Aug 2026:** HHS/CMS began decertifying Network for Hope over 351 reviewed cases (2021–2024), incl. ≥28 patients possibly not deceased at procurement start — only the 2nd OPO decertification ever (after Life Alliance, Sept 2025); appeal pending, service area stays closed to competitors meanwhile. |
 | **AOPO** (Association of OPOs) | Trade body representing ~all US OPOs | Single channel to the OPO community; endorsement = credibility. |
 | **Transplant Connect** | Dominant OPO donor-management platform (iTransplant: Waitlist, DonorNet, TIEDI, Transnet) | Privately held, for-profit; tightly tied to UNOS's technical stack. The OPO-side incumbent Graft's product touches. |
 
