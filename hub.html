@@ -138,6 +138,8 @@
   .node.is-hidden { display: none; }
   .node__head { display: flex; align-items: flex-start; justify-content: space-between; gap: .5rem; }
   .node__name { font-family: var(--sans); font-weight: 650; font-size: .98rem; line-height: 1.25; letter-spacing: -.005em; }
+  .node__link { color: inherit; text-decoration: none; border-bottom: 1px dotted var(--faint); }
+  .node__link:hover { color: var(--accent-ink); border-bottom-color: var(--accent-ink); }
   .node__parent { font-family: var(--mono); font-size: .66rem; color: var(--faint); letter-spacing: .02em; }
   .node__meta { font-size: .83rem; color: var(--muted); line-height: 1.45; }
   .chip { font-family: var(--mono); font-size: .58rem; letter-spacing: .06em; text-transform: uppercase; padding: .2rem .45rem; border-radius: 999px; white-space: nowrap; border: 1px solid var(--nodecol); color: var(--nodecol); background: color-mix(in srgb, var(--nodecol) 10%, transparent); }
@@ -215,7 +217,7 @@
         </div>
         <div class="ticker">
           <span class="ticker__tag">This week</span>
-          <p><strong>CareDx hit a 52-week high</strong> on a Q2 beat + guidance raise to $490–500M FY26; HRSA closed the last legacy-UNOS scope (Policy &amp; Committee Support → Customer Value Partners); and IOTA's PY2 rule sharpened the incentive (threshold 11→15/yr, Medicare Advantage folded in). <a data-view="weekly" href="#weekly">Full brief →</a></p>
+          <p>Quiet market week, but <strong>Network for Hope's OPO decertification is now under appeal</strong> — and the underlying case is worse than first reported (103 of 351 cases flagged). Also: <strong>UNOS quietly launched a public IOTA Dashboard</strong>, and a new Yale study links the APOL1 gene variant to higher rejection risk. <a data-view="weekly" href="#weekly">Full brief →</a></p>
         </div>
       </div>
     </div>
@@ -289,6 +291,136 @@
 
   const WEEKLY_EDITIONS = [
     {
+      date: "2026-08-15",
+      label: "Aug 15, 2026",
+      title: "This week in kidney transplant",
+      note: "A quiet market week, but a live regulatory appeal and a new precision-immunosuppression signal worth tracking. Auto-generated every Monday by the Graft Transplant Weekly routine.",
+      tldr: [
+        "<strong>Quiet ecosystem week</strong> — no new funding, M&amp;A, or entrants confirmed across all 15 watchlist queries for the Aug 10–15 window; no new ecosystem-refresh PR landed, so the roster stays as of last week.",
+        "<a href=\"https://www.fiercehealthcare.com/regulatory/hhs-announces-decertification-kentucky-based-organ-procurement-organization-network-hope\" target=\"_blank\" rel=\"noreferrer\"><strong class=\"kt\">Network for Hope's decertification is being appealed</strong></a> — the Kentucky OPO's service area stays closed to competitors until proceedings conclude, and HRSA's underlying case review is worse than first reported: 103 of 351 cases flagged, 73 with signs incompatible with donation.",
+        "<a href=\"https://unos.org/news/iota-dashboard-brings-kidney-transplant-performance-data-into-focus/\" target=\"_blank\" rel=\"noreferrer\"><strong>UNOS quietly launched a public IOTA Dashboard</strong></a> (late Jul) surfacing PY2 hospital-level performance — a new, scoreable benchmark for Graft's buyer that's worth wiring into sales collateral.",
+        "<a href=\"https://www.jci.org/articles/view/193173\" target=\"_blank\" rel=\"noreferrer\"><strong>New Yale/JCI study (Aug 11):</strong></a> APOL1 high-risk-variant kidney recipients reject more even on standard calcineurin-inhibitor immunosuppression — a precision-immunosuppression signal with product implications.",
+        "<a href=\"https://www.organdonor.gov/learn/organ-donation-statistics\" target=\"_blank\" rel=\"noreferrer\"><strong>Metric flag, not a fact:</strong></a> a Jul 30 OPTN figure puts the kidney waitlist at ~95,492 — different from the unsourced ~100,791 carried in the Aug 6 brief. Needs reconciling before either is cited externally."
+      ],
+      body: `
+        <section>
+          <h3 class="sec"><span class="secnum">02</span>Market moves</h3>
+          <ul class="body">
+            <li><span class="muted"><strong>No new "Weekly ecosystem refresh" PR this week</strong> — the most recent (PR #3, Aug 10) is already digested in last week's brief. Re-ran all 15 watchlist queries directly for the Aug 10–15 window: nothing new confirmed across backend competitors, front-end/advocacy rivals, KPD registries, VBC/dialysis players, diagnostics, or OPTN-modernization vendors. CareDx/DaVita press, InVita/Transplant Connect, Epic Showroom, and Strive/Somatus/Monogram/Evergreen/Panoramic trackers all checked and clean.</span></li>
+            <li><strong>Footnote for the standing tracker</strong> (not this week's news, predates the window): CareDx closed its acquisition of <a href="https://www.sec.gov/Archives/edgar/data/1217234/000110465926043970/tm2611749d1_8k.htm" target="_blank" rel="noreferrer"><strong>Naveris Inc.</strong></a> (oncology molecular diagnostics, ~$161.8M cash + up to $100M milestones) on Jul 1, 2026 — oncology-adjacent, outside kidney-transplant workflow, but shows CareDx's M&amp;A engine staying active post-Lab-Products-divestiture.</li>
+          </ul>
+        </section>
+        <section>
+          <h3 class="sec"><span class="secnum">03</span>Policy &amp; regulatory</h3>
+          <ul class="body">
+            <li><a href="https://www.fiercehealthcare.com/regulatory/hhs-announces-decertification-kentucky-based-organ-procurement-organization-network-hope" target="_blank" rel="noreferrer"><strong>Network for Hope decertification — now contested.</strong></a> CEO Barry Massa says the OPO "strongly disagrees" and will appeal, citing Kentucky's "pause in procedure" law; the KY/IN/OH/WV service area stays closed to competing OPOs until proceedings conclude. A <a href="https://www.onhealthcare.tech/p/part-i-organ-procurement-under-federal" target="_blank" rel="noreferrer">deeper (paywalled, secondary) trade-press review</a> puts HRSA's case findings at <strong>103 of 351 reviewed cases (29.3%)</strong> showing concerning features, <strong>73 with neurological signs incompatible with donation</strong> — worse than the "≥28" figure carried last week.</li>
+            <li><a href="https://unos.org/news/iota-dashboard-brings-kidney-transplant-performance-data-into-focus/" target="_blank" rel="noreferrer"><strong>UNOS launched an IOTA Dashboard</strong></a> (late Jul) making PY2 hospital-level performance visible across the model's three scoring domains — even for non-participating hospitals. <span class="muted">Direct fetch of unos.org was blocked this week; confirmed via search cache only, so treat as moderately confirmed.</span></li>
+            <li><span class="muted">No update on CMS-3409-P (still proposed, final expected late 2026), the SRTR recompete (HHRI bridge to Sep 18, 2026), or an OPTN public-comment cycle.</span></li>
+          </ul>
+        </section>
+        <section>
+          <h3 class="sec"><span class="secnum">04</span>Clinical &amp; research</h3>
+          <p class="body"><a href="https://www.jci.org/articles/view/193173" target="_blank" rel="noreferrer">New Yale/JCI study</a> (published Aug 11): the APOL1 G1 risk variant is associated with greater graft immune-cell infiltration, poorer graft survival, and T-cells relatively resistant to calcineurin-inhibitor suppression — recipients with the variant rejected despite higher tacrolimus levels, pointing to a need for alternative immunosuppression strategies in this population. Nothing else new in JASN/AJT/NEJM/JAMA on allocation, outcomes, or xenotransplantation this window.</p>
+        </section>
+        <section>
+          <h3 class="sec"><span class="secnum">05</span>Metric watch</h3>
+          <p class="muted">Kidney waitlist: <strong>~95,492 candidates</strong> as of Jul 30, 2026 (<a href="https://www.organdonor.gov/learn/organ-donation-statistics" target="_blank" rel="noreferrer">OPTN via organdonor.gov</a>) — a materially different number than the unsourced "~100,791" carried as a standing reference in the Aug 6 brief; direct fetch of the primary page was blocked this week, so treat as best-available, not independently verified. No new offer-acceptance/discard data or transplant-coordinator workforce data surfaced.</p>
+        </section>
+        <section>
+          <h3 class="sec"><span class="secnum">06</span>So what for Graft</h3>
+          <ul class="body">
+            <li><strong>Precision immunosuppression is an emerging signal.</strong> The APOL1 finding points toward workflow software that flags and tracks donor-recipient pharmacogenomic/immunologic risk, not just administrative workup — worth watching whether CareDx or Natera start operationalizing it.</li>
+            <li><strong>The IOTA Dashboard turns a private incentive into a public, scoreable metric</strong> — strengthens the case for the IOTA-linked ROI calculator flagged Aug 6; the dashboard itself is a usable public data source for it.</li>
+            <li><strong>Network for Hope's appeal is OPO-side, not Graft's segment</strong> — but the escalating case severity reinforces the compliance/audit-trail pitch to programmes bracing for tighter CMS oversight.</li>
+            <li><span class="muted">Quiet capital markets — no urgent competitive response needed; a reasonable window to ship rather than react.</span></li>
+          </ul>
+          <ul class="actions">
+            <li><span class="box"></span><div>Scope the UNOS IOTA Dashboard as a public data source for the coordinator-hours-saved / IOTA ROI calculator. <span class="owner">Owner · GTM</span></div></li>
+            <li><span class="box"></span><div>Light research spike: does any competitor reference APOL1 or pharmacogenomic risk flags in product marketing? <span class="owner">Owner · Product / CI</span></div></li>
+            <li><span class="box"></span><div>Reconcile "~95,492" vs "~100,791" kidney-waitlist figures before either is used externally. <span class="owner">Owner · GTM / Content</span></div></li>
+            <li><span class="box"></span><div>No urgent action on Network for Hope / CMS-3409-P — standing watch only. <span class="owner">Owner · —</span></div></li>
+          </ul>
+        </section>
+        <details class="sources">
+          <summary>Sources</summary>
+          <ul>
+            <li><a href="https://www.fiercehealthcare.com/regulatory/hhs-announces-decertification-kentucky-based-organ-procurement-organization-network-hope" target="_blank" rel="noreferrer">Fierce Healthcare — Network for Hope decertification &amp; appeal</a></li>
+            <li><a href="https://www.onhealthcare.tech/p/part-i-organ-procurement-under-federal" target="_blank" rel="noreferrer">onhealthcare.tech — Organ procurement under federal scrutiny, Part I</a></li>
+            <li><a href="https://unos.org/news/iota-dashboard-brings-kidney-transplant-performance-data-into-focus/" target="_blank" rel="noreferrer">UNOS — IOTA Dashboard</a></li>
+            <li><a href="https://www.cms.gov/newsroom/fact-sheets/organ-procurement-organizations-opos-conditions-coverage-revisions-cms-3409-p-proposed-rule" target="_blank" rel="noreferrer">CMS — CMS-3409-P fact sheet</a></li>
+            <li><a href="https://www.jci.org/articles/view/193173" target="_blank" rel="noreferrer">Journal of Clinical Investigation — APOL1 risk alleles &amp; allograft rejection</a></li>
+            <li><a href="https://www.organdonor.gov/learn/organ-donation-statistics" target="_blank" rel="noreferrer">organdonor.gov — organ donation statistics</a></li>
+            <li><a href="https://www.sec.gov/Archives/edgar/data/1217234/000110465926043970/tm2611749d1_8k.htm" target="_blank" rel="noreferrer">SEC 8-K — CareDx / Naveris acquisition close</a></li>
+            <li><span class="muted">Full detail &amp; the living roster: <code>graft-market-intel / ecosystem-players.md</code></span></li>
+          </ul>
+        </details>`
+    },
+    {
+      date: "2026-08-10",
+      label: "Aug 10, 2026",
+      title: "This week in kidney transplant",
+      note: "Quiet capital markets, but two live regulatory events: an OPO decertification and a new serology-testing deadline. Auto-generated every Monday by the Graft Transplant Weekly routine.",
+      tldr: [
+        "<a href=\"https://www.hhs.gov/press-room/hhs-decertifies-kentucky-organ-procurement-organization.html\" target=\"_blank\" rel=\"noreferrer\"><strong class=\"kt\">HHS/CMS decertified Network for Hope</strong></a>, the Kentucky OPO — only the 2nd OPO decertification ever. HRSA found ≥28 of 351 reviewed cases where the patient may not have been deceased at procurement start. First real enforcement since <strong>CMS-3409-P</strong> was proposed.",
+        "<a href=\"https://www.prnewswire.com/news-releases/national-kidney-registry-ready-to-support-new-optn-seven-day-testing-requirements-302833572.html\" target=\"_blank\" rel=\"noreferrer\"><strong>OPTN shortened donor serology testing windows</strong></a> (HIV 28→7 days, seasonal WNV 14→7 days), effective <strong>Aug 17</strong> — a dated new compliance burden landing squarely in Graft's coordinator-hours-saved thesis.",
+        "<a href=\"https://www.prnewswire.com/news-releases/national-kidney-registry-ready-to-support-new-optn-seven-day-testing-requirements-302833572.html\" target=\"_blank\" rel=\"noreferrer\"><strong>NKR beat the OPTN deadline by a week</strong></a>, launching a \"Streamlined Serology Service\" (17 tests, 7-day turnaround) on Aug 10 — more evidence NKR is Graft's most operationally sharp competitor.",
+        "<strong>Quiet capital markets</strong> — no new funding or M&amp;A across all 15 watchlist queries, or on CareDx/Breeze/Strive/Somatus/Monogram/Evergreen/Panoramic individually.",
+        "<a href=\"https://www.cms.gov/priorities/innovation/increasing-organ-transplant-access-performance-year-2-model-update-quick-reference\" target=\"_blank\" rel=\"noreferrer\"><strong>Metric correction:</strong></a> IOTA PY2 has <strong>95 eligible hospitals</strong>, not ~103 — the raised low-volume threshold actually shrank the participant count."
+      ],
+      body: `
+        <section>
+          <h3 class="sec"><span class="secnum">02</span>Market moves</h3>
+          <ul class="body">
+            <li><span class="muted"><strong>No new entrants, funding rounds, or M&amp;A this week</strong> — all 15 watchlist queries checked, plus targeted checks on CareDx, Breeze/MedSleuth, Strive, Somatus, Monogram, Evergreen, and Panoramic individually.</span></li>
+            <li><a href="https://www.prnewswire.com/news-releases/national-kidney-registry-ready-to-support-new-optn-seven-day-testing-requirements-302833572.html" target="_blank" rel="noreferrer"><strong>National Kidney Registry</strong></a> rolled out a "Streamlined Serology Service" (17 tests + final crossmatch, 7-day turnaround, kidney + liver via National Liver Registry) — live Aug 10, a week ahead of the OPTN mandate below. Small feature, but a reminder NKR ships fast on infrastructure touching both halves of Graft's funnel.</li>
+            <li><span class="muted">Checked and not logged: a secondary-source-only CareDx analyst note, and the already-covered LifeMine $263M drug financing (out of scope — not workflow/registry software).</span></li>
+          </ul>
+        </section>
+        <section>
+          <h3 class="sec"><span class="secnum">03</span>Policy &amp; regulatory</h3>
+          <ul class="body">
+            <li><a href="https://www.hhs.gov/press-room/hhs-decertifies-kentucky-organ-procurement-organization.html" target="_blank" rel="noreferrer"><strong>HHS/CMS began decertifying Network for Hope</strong></a> (KY OPO, serves KY/IN/OH/WV) — 2nd OPO decertification ever. HRSA reviewed 351 cases (2021–2024); ≥28 patients may not have been deceased when procurement began. Appeal pending; service area stays closed to competitors meanwhile. First real enforcement action since CMS-3409-P (OPO tiering) was proposed — final rule still expected late 2026, nothing new on it this week. (<a href="https://hallrender.com/2026/08/07/hhs-begins-decertification-of-network-for-hope-kentuckys-organ-procurement-organization/" target="_blank" rel="noreferrer">legal analysis</a>, <a href="https://www.statnews.com/2026/08/06/us-to-shut-kentucky-organ-donation-group-safety-concerns/" target="_blank" rel="noreferrer">STAT News</a>)</li>
+            <li><a href="https://www.prnewswire.com/news-releases/national-kidney-registry-ready-to-support-new-optn-seven-day-testing-requirements-302833572.html" target="_blank" rel="noreferrer"><strong>OPTN emergency policy shortens donor serology testing windows</strong></a> — HIV 28→7 days, seasonal West Nile 14→7 days, effective <strong>Aug 17, 2026</strong>. Changes what transplant-programme and OPO backend software must track and enforce.</li>
+            <li><span class="muted">No news this week on the SRTR long-term-contract recompete (HHRI bridge to Sep 18, 2026) or a new OPTN public-comment cycle.</span></li>
+          </ul>
+        </section>
+        <section>
+          <h3 class="sec"><span class="secnum">04</span>Clinical &amp; research</h3>
+          <p class="muted">Nothing newly published this week that materially changes Graft's product or GTM thesis. No new peer-reviewed studies, guideline updates, or allocation-policy research surfaced specific to living donation, immunosuppression, or offer-acceptance.</p>
+        </section>
+        <section>
+          <h3 class="sec"><span class="secnum">05</span>Metric watch</h3>
+          <p class="muted"><a href="https://www.cms.gov/priorities/innovation/increasing-organ-transplant-access-performance-year-2-model-update-quick-reference" target="_blank" rel="noreferrer"><strong>IOTA Performance Year 2 has 95 eligible hospitals</strong></a>, not ~103 — CMS's PY2 quick reference confirms the count after the low-volume threshold rose 11→15/yr; worth correcting collateral that still cites ~103. Separately, the <a href="https://srtr.hrsa.gov/adr/2024/Overview/" target="_blank" rel="noreferrer">OPTN/SRTR 2024 Annual Data Report</a> was already published May–Jun 2026 (before this tracking began) — closes out last week's "watch item" flag; no fresher national data report has landed since. No transplant-coordinator workforce data surfaced.</p>
+        </section>
+        <section>
+          <h3 class="sec"><span class="secnum">06</span>So what for Graft</h3>
+          <ul class="body">
+            <li><strong>CMS oversight now has a live enforcement case, not just a proposed rule.</strong> Network for Hope is OPO-side, not Graft's segment directly, but signals CMS-3409-P-style tiering will be enforced with teeth — reinforces Graft's hours-saved pitch to programmes bracing for more oversight.</li>
+            <li><strong>The Aug 17 serology-window deadline is a concrete, dated pain point</strong> every programme and OPO must operationalize this week — a good live example for sales conversations of the tracking burden Graft's backend absorbs.</li>
+            <li><strong>NKR shipping ahead of a regulatory deadline is a competitive signal</strong>, not just a feature note — more evidence NKR executes fast on infrastructure spanning both halves of Graft's funnel.</li>
+            <li><span class="muted">Quiet capital markets — no new well-funded entrant to react to, but also no fresh signal for fundraising narrative purposes.</span></li>
+          </ul>
+          <ul class="actions">
+            <li><span class="box"></span><div>Correct internal materials/collateral citing "~103 IOTA hospitals" to 95 for PY2 accuracy. <span class="owner">Owner · GTM</span></div></li>
+            <li><span class="box"></span><div>Add the Aug 17 serology-testing deadline to sales talking points as a live compliance pain point. <span class="owner">Owner · GTM</span></div></li>
+            <li><span class="box"></span><div>Light monitoring pass on NKR's Streamlined Serology Service rollout. <span class="owner">Owner · Product / CI</span></div></li>
+            <li><span class="box"></span><div>Watch CMS-3409-P final-rule timing in light of the Network for Hope precedent — no action needed yet. <span class="owner">Owner · —</span></div></li>
+          </ul>
+        </section>
+        <details class="sources">
+          <summary>Sources</summary>
+          <ul>
+            <li><a href="https://www.hhs.gov/press-room/hhs-decertifies-kentucky-organ-procurement-organization.html" target="_blank" rel="noreferrer">HHS press release — Network for Hope decertification</a></li>
+            <li><a href="https://hallrender.com/2026/08/07/hhs-begins-decertification-of-network-for-hope-kentuckys-organ-procurement-organization/" target="_blank" rel="noreferrer">Hall Render — HHS begins decertification of Network for Hope</a></li>
+            <li><a href="https://www.statnews.com/2026/08/06/us-to-shut-kentucky-organ-donation-group-safety-concerns/" target="_blank" rel="noreferrer">STAT News — US to shut Kentucky organ donation group</a></li>
+            <li><a href="https://www.prnewswire.com/news-releases/national-kidney-registry-ready-to-support-new-optn-seven-day-testing-requirements-302833572.html" target="_blank" rel="noreferrer">NKR — ready to support new OPTN 7-day testing requirements</a></li>
+            <li><a href="https://www.cms.gov/priorities/innovation/increasing-organ-transplant-access-performance-year-2-model-update-quick-reference" target="_blank" rel="noreferrer">CMS — IOTA PY2 model update, quick reference (95 hospitals)</a></li>
+            <li><a href="https://srtr.hrsa.gov/adr/2024/Overview/" target="_blank" rel="noreferrer">OPTN/SRTR 2024 Annual Data Report — Overview</a></li>
+            <li><span class="muted">Full detail &amp; the living roster: <code>graft-market-intel / ecosystem-players.md</code>, refreshed in <a href="https://github.com/brandoncenter-a11y/graft-market-intel/pull/3" target="_blank" rel="noreferrer">PR #3</a></span></li>
+          </ul>
+        </details>`
+    },
+    {
       date: "2026-08-06",
       label: "Aug 6, 2026",
       title: "This week in kidney transplant",
@@ -357,6 +489,22 @@
 
   const CHANGELOG = [
     {
+      date: "2026-08-15",
+      label: "Aug 15, 2026",
+      summary: "No new ecosystem-refresh PR this week; all 15 watchlist queries re-checked directly for Aug 10–15 and came back clean. No roster changes.",
+      items: []
+    },
+    {
+      date: "2026-08-10",
+      label: "Aug 10, 2026",
+      summary: "No new entrants or funding this week. Three infrastructure/policy developments logged: an OPO decertification, a new OPTN serology deadline, and NKR's product response to it.",
+      items: [
+        { t: "CHANGE", x: "<a href=\"https://www.hhs.gov/press-room/hhs-decertifies-kentucky-organ-procurement-organization.html\" target=\"_blank\" rel=\"noreferrer\">HHS/CMS began decertifying Network for Hope</a> (KY OPO) — 2nd OPO decertification ever; HRSA found ≥28 of 351 reviewed cases where the patient may not have been deceased at procurement start. Appeal pending." },
+        { t: "CHANGE", x: "<a href=\"https://www.prnewswire.com/news-releases/national-kidney-registry-ready-to-support-new-optn-seven-day-testing-requirements-302833572.html\" target=\"_blank\" rel=\"noreferrer\">OPTN emergency policy shortens donor serology testing windows</a> (HIV 28→7 days, seasonal WNV 14→7 days), effective Aug 17, 2026 — new tracking/enforcement burden for backend software." },
+        { t: "CHANGE", x: "<a href=\"https://www.prnewswire.com/news-releases/national-kidney-registry-ready-to-support-new-optn-seven-day-testing-requirements-302833572.html\" target=\"_blank\" rel=\"noreferrer\">National Kidney Registry launched a Streamlined Serology Service</a> (17 tests, 7-day turnaround, kidney + liver) — live Aug 10, a week ahead of the OPTN mandate." }
+      ]
+    },
+    {
       date: "2026-08-06",
       label: "Aug 6, 2026",
       summary: "First weekly refresh (same day as baseline): no new entrants, but corrected two facts and added a missing policy vehicle.",
@@ -395,7 +543,7 @@
       { n: "TransplantFirst Academy", p: "Nonprofit", s: "overlap", m: "Coaches patients on donor campaigns (\"Donor Seeker,\" billboard/post resources). Advocacy/education, not software." },
     ]},
     { letter: "C", title: "KPD registries & exchanges", blurb: "Downstream matching utilities — partners/channels more than competitors, except at the workflow layer.", players: [
-      { n: "National Kidney Registry (NKR) + DASH + Donor Shield", p: "NKR", s: "overlap", m: "World's largest paired-exchange; DASH = online donor workflow; Donor Shield = up to $30K protections. ~30% of US living-donor transplants. Does both halves of Graft's funnel at scale." },
+      { n: "National Kidney Registry (NKR) + DASH + Donor Shield", p: "NKR", s: "overlap", link: "https://www.prnewswire.com/news-releases/national-kidney-registry-ready-to-support-new-optn-seven-day-testing-requirements-302833572.html", m: "World's largest paired-exchange; DASH = online donor workflow; Donor Shield = up to $30K protections. ~30% of US living-donor transplants. Does both halves of Graft's funnel at scale. Aug 2026: launched a Streamlined Serology Service (17 tests, 7-day turnaround) ahead of OPTN's new testing-window mandate." },
       { n: "Alliance for Paired Kidney Donation (APKD)", p: "APKD + DonorProtect", s: "overlap", m: "National paired-exchange + donor protections + advocacy. Manages donor inquiries, refers to partner centers." },
       { n: "UNOS / OPTN Kidney Paired Donation", p: "Federal", s: "infra", m: "The federal national KPD program, open to all OPTN living-donor programs. Downstream matching utility." },
       { n: "Renewal", p: "Nonprofit", s: "infra", m: "Jewish-community kidney donation; ~1,400 transplants (2006–2025), ~18% of US altruistic donations. Proof point for \"activate your network.\"" },
@@ -425,7 +573,7 @@
       { n: "Adherence tools (mDOT, BAASIS …)", p: "Various", s: "adjacent", m: "Immunosuppressant-adherence m-Health. No scaled commercial competitor — a feature to absorb." },
     ]},
     { letter: "G", title: "Infrastructure — governance, registries, data", blurb: "Not competitors — but they set the rules, hold the data, and issue the contracts Graft's market runs on.", players: [
-      { n: "OPTN", p: "Organ Procurement & Transplantation Network", s: "infra", m: "The standards body; policy changes reshape what programme software must capture and report." },
+      { n: "OPTN", p: "Organ Procurement & Transplantation Network", s: "infra", link: "https://www.prnewswire.com/news-releases/national-kidney-registry-ready-to-support-new-optn-seven-day-testing-requirements-302833572.html", m: "The standards body; policy changes reshape what programme software must capture and report. Aug 2026: emergency policy shortens donor serology testing windows (HIV 28→7 days, seasonal WNV 14→7 days), effective Aug 17." },
       { n: "UNOS", p: "United Network for Organ Sharing", s: "infra", m: "40-yr sole contractor, now narrowed to competed scopes. Its contraction is the central market-opening event; still runs the national match." },
       { n: "HRSA", p: "HHS agency", s: "infra", m: "Owns the OPTN contract; drives modernization; issues the RFPs/task orders that create every new vendor." },
       { n: "SRTR", p: "Scientific Registry", s: "infra", m: "Publishes programme \"report cards\" — defines the numbers programmes are judged on. Long-term contract re-competing (HHRI bridge to Sep 2026)." },
@@ -433,7 +581,7 @@
       { n: "OPTN modernization vendors", p: "GDIT · Accenture · Leidos · Sapient · Arbor · CVP", s: "infra", m: "The multi-vendor stack replacing the UNOS monopoly. Next-gen match/DonorNet anchored by GDIT + Accenture/Leidos/Sapient — Graft's backend must interoperate." },
     ]},
     { letter: "H", title: "Infrastructure — OPOs & OPO technology", blurb: "The organ-recovery layer Graft's product touches at the deceased-donor edge.", players: [
-      { n: "~55 OPOs", p: "Gift of Life · OneLegacy · LiveOnNY …", s: "infra", m: "Federally designated regional recovery monopolies under CMS performance tiering; consolidation is squeezing the lowest tier." },
+      { n: "~55 OPOs", p: "Gift of Life · OneLegacy · LiveOnNY · Network for Hope …", s: "infra", link: "https://www.hhs.gov/press-room/hhs-decertifies-kentucky-organ-procurement-organization.html", m: "Federally designated regional recovery monopolies under CMS performance tiering; consolidation is squeezing the lowest tier. Aug 2026: HHS/CMS began decertifying Network for Hope (KY/IN/OH/WV) — only the 2nd OPO decertification ever; appeal pending." },
       { n: "AOPO", p: "Association of OPOs", s: "infra", m: "Trade body representing ~all US OPOs — a single channel to the community; endorsement = credibility." },
       { n: "Transplant Connect", p: "InVita / Novacap", s: "infra", m: "Dominant OPO donor-management platform (iTransplant: Waitlist, DonorNet, TIEDI, Transnet); tightly tied to UNOS's stack." },
     ]},
@@ -462,7 +610,7 @@
     total += seg.players.length;
     const cards = seg.players.map((pl) => `
       <article class="node" data-stand="${pl.s}">
-        <div class="node__head"><span class="node__name">${esc(pl.n)}</span><span class="chip">${STAND[pl.s]}</span></div>
+        <div class="node__head"><span class="node__name">${pl.link ? `<a href="${esc(pl.link)}" target="_blank" rel="noreferrer" class="node__link">${esc(pl.n)}</a>` : esc(pl.n)}</span><span class="chip">${STAND[pl.s]}</span></div>
         ${pl.p ? `<span class="node__parent">${esc(pl.p)}</span>` : ""}
         <p class="node__meta">${esc(pl.m)}</p>
       </article>`).join("");
