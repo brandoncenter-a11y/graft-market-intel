@@ -27,6 +27,44 @@ Started: 2026-08-06. See [[graft-business-model]], [[graft-outstanding-work]], a
 Each weekly refresh adds a dated block here. Entries: **[NEW]** first appearance, **[FUNDING]**
 raise/round, **[M&A]** acquisition/merger, **[CHANGE]** material shift (product, scope, status).
 
+### 2026-08-17 — Second weekly refresh
+Quiet 11-day window: no new entrants, funding rounds, or M&A confirmed anywhere in the market
+(backend competitors, advocacy/donor layer, adjacent VBC/diagnostics, infrastructure/policy,
+capital). Three CHANGE items surfaced, all infrastructure/roster-accuracy, not competitive
+structure. Checked: all 15 watchlist queries + variations across the five segments; CareDx/DaVita
+press & earnings; Strive/Somatus/Monogram/Evergreen/Panoramic funding trackers (nothing new since
+the already-logged Sept 2025 Strive raise); Epic Showroom transplant category; UNOS TMF/AST-ATC
+exhibitor lists (both conferences pre-date this window); SAM.gov/HRSA OPTN task-order feed; KidneyX/
+NIH SBIR grant feeds. Noted but excluded as immaterial: a CareDx–Epic integration webinar (12 Aug,
+routine marketing, source not independently verified — caredx.com blocked by proxy), an NKF
+donor-recognition PR campaign (11 Aug, fundraising not market-structure), a routine CareDx insider
+Form 144 filing (12 Aug).
+
+- **[CHANGE] OPTN emergency serology-testing policy took effect 17 Aug 2026** — shortens the donor
+  testing window for seasonal West Nile Virus 14→7 days and HIV 28→7 days, for all donors. National
+  Kidney Registry moved onto the new 7-day process 10 Aug 2026 via an expanded "Streamlined Serology
+  Service" (all 17 serology/crossmatch tests, kidney + liver) to help member and non-member centres
+  comply. A live data-capture/reporting change every backend transplant-programme system now has to
+  support.
+  [HRSA policy notice (PDF)](https://www.hrsa.gov/sites/default/files/hrsa/optn/seasonal-wnv-testing-required-for-all-donors.pdf) ·
+  [PR Newswire (NKR)](https://www.prnewswire.com/news-releases/national-kidney-registry-ready-to-support-new-optn-seven-day-testing-requirements-302833572.html)
+- **[CHANGE] HHS decertified Network for Hope, the Kentucky OPO (serves parts of OH/IN/WV) — 5 Aug
+  2026 (one day before last week's cutoff; missed in that refresh).** Federal review found ~28 cases
+  where organ procurement may have started on patients not yet deceased; deficiencies in ~30% of
+  cases reviewed. Network for Hope is appealing; HRSA/CMS overseeing the transition. First for-cause
+  OPO decertification under the current federal enforcement push — a different mechanism from, but
+  reinforces, the pending CMS-3409-P tiering rule already tracked below.
+  [HHS press release](https://www.hhs.gov/press-room/hhs-decertifies-kentucky-organ-procurement-organization.html) ·
+  [Healthcare Dive](https://www.healthcaredive.com/news/hhs-decertify-organ-procurement-group-patient-safety-failures-network-for-hope/827334/)
+- **[CHANGE] Roster correction: Oncocyte renamed Insight Molecular Diagnostics Inc. (IMDX) in June
+  2025** — the roster still listed it as "Oncocyte"; corrected in §F below. Separately, Q2 2026
+  results (10 Aug 2026): ~$239K quarterly revenue (mostly lab services out of its Tennessee lab) plus
+  $21K in RUO kit sales; FDA completed the current phase of its substantive review of GraftAssureDx
+  in late July and requested additional information — company describes itself as in "later stages"
+  of review, no material kit revenue expected pre-authorization.
+  [GlobeNewswire (Q2 2026 results)](https://www.globenewswire.com/news-release/2026/08/10/3342217/0/en/imdx-reports-second-quarter-2026-results-and-timely-progress-on-fda-review-of-graftassuredx.html) ·
+  [GlobeNewswire (name change, Jun 2025)](https://www.globenewswire.com/news-release/2025/06/17/3100513/0/en/Oncocyte-Changes-Name-to-Insight-Molecular-Diagnostics-Inc-iMDx-Moves-Headquarters-to-Nashville.html)
+
 ### 2026-08-06 — First weekly refresh (same-day as baseline)
 No new entrants or funding rounds found — expected, since baseline was compiled hours earlier
 today. This pass corrected two facts the baseline sweep had wrong/incomplete and surfaced one
@@ -188,7 +226,7 @@ and indirect competitors if they build coordination tooling in-house.*
 | **CareDx** | AlloSure/AlloMap dd-cfDNA **+ TxAccess/AlloCare software** | 🔴/🟡 (see §A) | The diagnostics-to-software crossover already happened here. |
 | **Natera — Prospera** | dd-cfDNA rejection surveillance (kidney/heart/lung) | 🟡 Partner / indirect competitor | FY2025 total rev ~$2.3B; no transplant workflow software *yet*. |
 | **Eurofins Transplant Genomics** | TruGraf + TRAC molecular kidney monitoring | 🟡 Partner | Diagnostics-only today. |
-| **Oncocyte — VitaGraft / GraftAssure** | Decentralized "kitted" dd-cfDNA IVD (FDA path) | 🟡 Partner | Early challenger; targeting 20 centres. |
+| **Insight Molecular Diagnostics (IMDX, formerly Oncocyte)** — VitaGraft / GraftAssureDx | Decentralized "kitted" dd-cfDNA IVD (FDA path) | 🟡 Partner | Renamed from Oncocyte Jun 2025 (roster correction). Q2 2026: ~$239K rev (mostly TN lab services) + $21K RUO kit sales; FDA completed current review phase of GraftAssureDx late Jul 2026, requested additional info — company says "later stages" of review; no material kit revenue pre-authorization. |
 | **Adherence tools** (mDOT, Adhere4U, TrackYourMed, BAASIS) | Immunosuppressant-adherence m-Health | 🟡 Feature to absorb | No scaled commercial competitor; *(all unverified as businesses)*. |
 
 ## G. Infrastructure — governing bodies, registries, data 🟢
@@ -197,7 +235,7 @@ and indirect competitors if they build coordination tooling in-house.*
 
 | Entity | Role | Why Graft tracks it |
 |---|---|---|
-| **OPTN** (Organ Procurement & Transplantation Network) | Federally chartered body setting allocation policy & membership rules | The single most important standards body; policy changes reshape what programme software must capture/report. |
+| **OPTN** (Organ Procurement & Transplantation Network) | Federally chartered body setting allocation policy & membership rules | The single most important standards body; policy changes reshape what programme software must capture/report. **New emergency policy (eff. 17 Aug 2026):** shortens HIV serology testing window 28→7 days and seasonal WNV window 14→7 days for all donors — a live data-capture change for every backend system. |
 | **UNOS** (United Network for Organ Sharing) | 40-yr sole OPTN contractor, now narrowed to competed scopes | Its contraction is the central market-opening event; still runs the national match (retained Dec 2025). |
 | **HRSA** | HHS agency owning the OPTN contract; driving modernization | Issues the RFPs/task orders that create every new vendor — watch SAM.gov + monthly updates. |
 | **SRTR** (Scientific Registry of Transplant Recipients) | Publishes programme-level outcome "report cards" | Defines the numbers programmes are judged on. Long-term contract **re-competing** (interim HHRI bridge ~Mar 2026) *(unverified outcome)*. |
@@ -220,7 +258,7 @@ the platforms Graft's backend will need to interoperate with.
 
 | Entity | Role | Notes |
 |---|---|---|
-| **~55 OPOs** — e.g., **Gift of Life** (Philadelphia, highest-volume), **OneLegacy** (LA, largest by population), **LiveOnNY**, **Midwest Transplant Network**, **Mid-America Transplant** | Federally designated regional organ-recovery monopolies, under CMS performance tiering | 2024 record year; CMS tiering is driving Tier-3 consolidation (24→10 lowest-tier). |
+| **~55 OPOs** — e.g., **Gift of Life** (Philadelphia, highest-volume), **OneLegacy** (LA, largest by population), **LiveOnNY**, **Midwest Transplant Network**, **Mid-America Transplant** | Federally designated regional organ-recovery monopolies, under CMS performance tiering | 2024 record year; CMS tiering is driving Tier-3 consolidation (24→10 lowest-tier). HHS decertified **Network for Hope** (KY; parts of OH/IN/WV) 5 Aug 2026 over patient-safety failures (~28 possibly-premature procurement starts) — first for-cause OPO decertification under the current enforcement push; appeal pending. |
 | **AOPO** (Association of OPOs) | Trade body representing ~all US OPOs | Single channel to the OPO community; endorsement = credibility. |
 | **Transplant Connect** | Dominant OPO donor-management platform (iTransplant: Waitlist, DonorNet, TIEDI, Transnet) | Privately held, for-profit; tightly tied to UNOS's technical stack. The OPO-side incumbent Graft's product touches. |
 
